@@ -1,0 +1,25 @@
+body {
+    /* background-color: hsl(87, 96%, 9%); */
+    /* color: white; */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.photo_cont img {
+    height: 300px;
+    width: 250px;
+    margin-right: 10px;
+   
+}
+.photo_cont {
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 4%;
+}
+.info_img {
+    height: 400px;
+    width: 600px;
+}
